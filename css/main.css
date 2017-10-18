@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+  *, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eee9de;
+  font-family: "Lato", sans-serif;
+  margin: 1.5rem;
+  vertical-align: middle;
+}
+
+section {
+    text-align: center;
+  }
+
+.imgbox {
+  display: inline-block;
+  max-width: 25em;
+}
+
+img {
+  padding: 2em;
+  width: 100%;
+}
+
+.contextbox {
+  display: inline-block;
+  max-width: 25em;
+}
+
+.contextbox h2 {
+  display: block;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.contextbox p {
+  display: block;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.btn {
+  border: 3px solid #333;
+  border-radius: 10px;
+  color: #333;
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+  text-align: left;
+}
+
+.btn:hover {
+  background-color: #666;
+  border: 3px solid #666;
+  border-radius: 10px;
+  color: #fff;
+}
